@@ -9,7 +9,7 @@ _Big data with Apache Spark in python_
 
 ## Overview
 
-This repo consists of some useful codes that was developed as part of some activities and exercises in a course on Apache Spark that I took in Udemy. I have had prior experience dealing with all the these (except breadth-first-search and streaming data) albeit in a non-distributed context. It was really interesting to apply these methods to large datasets (even on my personal computer) using spark RDDs and dataframe framework. It was quite fascinating to get to know the breadth-first-search algorithm and apply it to find the degree of separation in a (fake) social media graph. Apart from these, I also tried my hands on dealing with the SparkML and Structured Streaming which correspond to the Machine learning and streaming services offered by Apache Spark.   
+This repo consists of some useful codes that was developed as part of some activities and exercises in a course on Apache Spark that I took in Udemy. I have had prior experience dealing with all the these (except breadth-first-search and streaming data) albeit in a non-distributed context. It was really interesting to apply these methods to large datasets (even on my personal computer) using spark RDDs and dataframe framework. It was quite fascinating to get to know the breadth-first-search algorithm and apply it to find the degree of separation in a (fake) social media graph. Apart from these, I also tried my hands on dealing with the SparkML and Structured Streaming which correspond to the Machine learning and streaming data services offered by Apache Spark.   
 
 
 ## Projects
