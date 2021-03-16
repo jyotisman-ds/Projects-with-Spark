@@ -1,6 +1,6 @@
 # Projects-with-Spark
 
-_Big data with Apache Spark with python_
+_Big data with Apache Spark in python_
 
 - [Overview](#overview)
 - [Projects](#projects)
