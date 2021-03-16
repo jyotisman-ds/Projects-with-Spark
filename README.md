@@ -31,4 +31,4 @@ _Picture Courtesy : Wikipedia_
 
 ## Credits
 
-Thanks to Frank Kane for teaching this excellent course on [Taming Big Data with Apache Spark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/) and also to Udemy for hosting this wonderful content.
+Thanks to Frank Kane for teaching this excellent course on [Taming Big Data with Apache Spark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/) and providing interesting hands-on activities/exercises. The codes in this repo were developed from using the coding implementations provided as part of this course. Also, thanks to Udemy for hosting this wonderful content.
