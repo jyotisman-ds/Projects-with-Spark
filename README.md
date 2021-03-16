@@ -9,13 +9,23 @@ _Big data with Apache Spark with python_
 
 ## Overview
 
-This repo consists of some useful codes that was developed as part of some activities in a course on Apache Spark that I took in Udemy. I have had prior experience dealing with all the these (except breadth-fast-search and streaming data) albeit in a non-distributed context. It was really interesting to apply these methods to large datasets (even on my personal computer) using spark RDDs and dataframe framework. It was quite interesting to get to know the breadth-fast-search algorithm and apply it to find the degree of separation in a social graph. Apart from these, I also tried my hands on dealing with streaming data.   
+This repo consists of some useful codes that was developed as part of some activities and exercises in a course on Apache Spark that I took in Udemy. I have had prior experience dealing with all the these (except breadth-first-search and streaming data) albeit in a non-distributed context. It was really interesting to apply these methods to large datasets (even on my personal computer) using spark RDDs and dataframe framework. It was quite fascinating to get to know the breadth-first-search algorithm and apply it to find the degree of separation in a (fake) social media graph. Apart from these, I also tried my hands on dealing with the SparkML and Structured Streaming which correspond to the Machine learning and streaming services offered by Apache Spark.   
 
 
 ## Projects
 
-The code can be found [here](https://github.com/jyotisman-ds/Web-Scraping/blob/main/scrapy_project/scrapy_project/spiders/scrapy_challenge.py).
+- Movie Recommendation : Used the 1-Million movies dataset from the [grouplens](https://grouplens.org/datasets/movielens/) website. Learned how to use Amazon's Elastic Map Reduce service (EMR) to run Spark on top of the Hadoop Cluster manager (YARN). A cluster framework becomes necessary because of the self-join operation on the massive movie dataset. However, my local machine (8-cores) was able to handle it well, so I instead distributed the Spark job on my local machine. The dataframe version of the code can be found [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/movie-similarities-dataframe.py) while the RDD version is [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/movie-similarities-1m.py)
 
+
+![BFS](bfs.png)
+_Picture Courtesy : Wikipedia_
+
+- Breadth-first-search : Reduced the breadth-first-search algorithm to a mapReduce job and then it was down to implementing the map and reduce components individually. We applied this to a marvel superheroes dataset (connections of every superhero in the marvel universe) provided in the course. And, it was interesting to see that even the most obscure heroes were only 2 degrees of separation apart from the most popular ones. The code to obtain the obscure characters in the dataset (based on least number of connections to other heores) can be found [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/ObscureSuperheroes.py) and the breadth-fast-search algo. is [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/degrees-of-separation.py)
+
+
+- SparkML - Even though there isn't a great deal of choices for ML algorithms in Spark, it still contains a decent list of some of the poppular algorithms. This also boils to which algorithms could actually be parallelized. A [code](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/Houseprices_DecisionTree.py) for using an unoptimized Decision tree regression on a house prices dataset is also present in this repo for demonstration purposes. The dataset is obtained from the UC Irvine repository of public datasets.
+
+- Structured Streaming - Used the new structured streaming framework for dataframes to read a curated logs data for demonstration. Also introduced a window and a slider interval to find the top URLs that were logged into in the last 30 seconds.
 
 
 
