@@ -17,8 +17,6 @@ This repo consists of some useful codes that was developed as part of some activ
 - Movie Recommendation : Used the 1-Million movies dataset from the [grouplens](https://grouplens.org/datasets/movielens/) website. Learned how to use Amazon's Elastic Map Reduce service (EMR) to run Spark on top of the Hadoop Cluster manager (YARN). A cluster framework becomes necessary because of the self-join operation on the massive movie dataset. However, my local machine (8-cores) was able to handle it well, so I instead distributed the Spark job on my local machine. The dataframe version of the code can be found [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/movie-similarities-dataframe.py) while the RDD version is [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/movie-similarities-1m.py).
 
 
-![BFS](bfs.png)
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/bfs.png">
 </p>
