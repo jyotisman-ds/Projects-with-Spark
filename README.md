@@ -18,11 +18,11 @@ This repo consists of some useful codes that was developed as part of some activ
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/bfs.png">
+  <img src="https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/bfs.png">
 </p>
 
 <p align="center">
-_Picture Courtesy : https://www.gatevidyalay.com/breadth-first-search-bfs-algorithm_
+_Picture Courtesy_ : https://www.gatevidyalay.com/breadth-first-search-bfs-algorithm
 </p>
 
 - Breadth-first-search : Reduced the breadth-first-search algorithm to a mapReduce job and then it was down to implementing the map and reduce components individually. We applied this to a marvel superheroes dataset (connections of every superhero in the marvel universe) provided in the course. And, it was interesting to see that even the most obscure heroes were only 2 degrees of separation apart from the most popular ones. The code to obtain the obscure characters in the dataset (based on least number of connections to other heores) can be found [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/ObsureSuperheroes.py) and the breadth-fast-search algo. is [here](https://github.com/jyotisman-ds/Projects-with-Spark/blob/main/degrees-of-separation.py).
